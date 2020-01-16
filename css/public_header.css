@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'iconfont';
-  src: url('http://at.alicdn.com/t/font_1481503_dlhabdgborg.eot');
-  src: url('http://at.alicdn.com/t/font_1481503_dlhabdgborg.eot?#iefix') format('embedded-opentype'), url('http://at.alicdn.com/t/font_1481503_dlhabdgborg.woff2') format('woff2'), url('http://at.alicdn.com/t/font_1481503_dlhabdgborg.woff') format('woff'), url('http://at.alicdn.com/t/font_1481503_dlhabdgborg.ttf') format('truetype'), url('http://at.alicdn.com/t/font_1481503_dlhabdgborg.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.eot');
+  src: url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.eot?#iefix') format('embedded-opentype'), url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.woff2') format('woff2'), url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.woff') format('woff'), url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.ttf') format('truetype'), url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.svg#iconfont') format('svg');
   
   /* project id 1481503 */
 }
@@ -17,6 +17,7 @@
   width: 20rem;
   height: 2.8125rem;
   background: #ffd400;
+  overflow: hidden;
 }
 .public_header .Headportrait_container {
   width: 3.125rem;
@@ -98,4 +99,272 @@
   font-size: 1.25rem;
   float: left;
   text-align: center;
+}
+.hot_search {
+  width: 100%;
+  height: 1.625rem;
+  background: #ffcf00;
+  overflow: hidden;
+}
+.hot_search dl {
+  height: 1.625rem;
+}
+.hot_search dl dt {
+  padding: 0.5rem;
+  padding-right: 0rem;
+  padding-left: 1.125rem;
+  float: left;
+  font-size: 0.625rem;
+  height: 1.625rem;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.hot_search dl dd {
+  padding: 0.5rem;
+  float: left;
+  font-size: 0.625rem;
+  height: 1.625rem;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  line-height: 0.8125rem;
+}
+.hot_search dl dd i {
+  vertical-align: top;
+}
+.index_menu_container {
+  height: 13.875rem;
+  overflow: hidden;
+}
+.public_header_bg {
+  width: 100%;
+  height: 135px;
+  background-image: linear-gradient(to bottom, #ffcf00 50%, #ffffff 100%);
+}
+.public_header_bg .header_menu {
+  width: 18.875rem;
+  background: white;
+  margin: 0 auto;
+  border-radius: 1rem 1rem 0 0;
+  overflow: hidden;
+}
+.public_header_bg .header_menu dl {
+  width: 100%;
+  overflow: hidden;
+}
+.public_header_bg .header_menu dl dd {
+  float: left;
+  height: 3.75rem;
+  background: white;
+  width: 3.775rem;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-top: 0.75rem;
+}
+.public_header_bg .header_menu dl dd a i {
+  font-size: 1.375rem;
+  color: #ff4382 !important;
+}
+.public_header_bg .header_menu dl dd section a {
+  font-size: 0.6875rem;
+  color: #7d7c7d;
+}
+.public_header_bg .header_menu ul {
+  padding: 0rem 0.375rem;
+  overflow: hidden;
+}
+.public_header_bg .header_menu ul li {
+  float: left;
+  padding: 0.875rem 0.375rem 0.4375rem 0.4375rem;
+  text-align: center;
+}
+.public_header_bg .header_menu ul li span {
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  background: #ff8201;
+  border-radius: 0.625rem;
+  text-align: center;
+  position: relative;
+  line-height: 2.75rem;
+}
+.public_header_bg .header_menu ul li span i {
+  font-size: 1.75rem;
+  color: white;
+}
+.public_header_bg .header_menu ul li span b {
+  display: inline-block;
+  padding: 0.125rem;
+  height: 0.75rem;
+  background: red;
+  border-radius: 0.375rem;
+  position: absolute;
+  top: -0.5rem;
+  left: 1.6125rem;
+  line-height: 0.75rem;
+  color: white;
+  font-weight: normal;
+  font-size: 0.625rem;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.public_header_bg .header_menu ul li section a {
+  color: #7d7c7d;
+  font-size: 11px;
+}
+.public_header_bg .header_menu ul li:nth-of-type(2) span {
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  background: #fe4203;
+  border-radius: 0.625rem;
+}
+.public_header_bg .header_menu ul li:nth-of-type(2) span i {
+  font-size: 2.1875rem;
+}
+.public_header_bg .header_menu ul li:nth-of-type(3) span {
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  background: #a56849;
+  border-radius: 0.625rem;
+}
+.public_header_bg .header_menu ul li:nth-of-type(4) span {
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  background: #00be93;
+  border-radius: 0.625rem;
+}
+.public_header_bg .header_menu ul li:nth-of-type(5) span {
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  background: #ffc501;
+  border-radius: 0.625rem;
+}
+.public_header_bg .header_menu ul li:nth-of-type(5) span i {
+  font-size: 2.1875rem;
+}
+/*轮播图*/
+.index_banner {
+  clear: both;
+  width: 18.375rem;
+  height: 5rem;
+  background: aqua;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+.index_banner .swiper-container {
+  --swiper-pagination-color: white;
+}
+.index_banner .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 18.375rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}
+.commodity_display {
+  width: 18.375rem;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.commodity_display ul {
+  padding-top: 0.5rem;
+  width: 100%;
+  overflow: hidden;
+}
+.commodity_display ul li {
+  float: left;
+  width: 9rem;
+  text-align: left;
+}
+.commodity_display ul li img {
+  width: 9rem;
+  height: 7.0625rem;
+}
+.commodity_display ul li b {
+  display: block;
+  font-size: 0.6875rem;
+  line-height: 0.75rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0.25rem 0.625rem 0.25rem 0.5625rem;
+}
+.commodity_display ul li section:nth-of-type(1) {
+  display: block;
+  width: 9rem;
+  height: 2.875rem;
+}
+.commodity_display ul li section:nth-of-type(1) p {
+  width: 100%;
+  height: 1.3125rem;
+  background-color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.5625rem;
+  line-height: 1.3125rem;
+  padding-left: 0.5625rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-right: 0.25rem;
+  color: #999799;
+}
+.commodity_display ul li section:nth-of-type(1) span {
+  display: block;
+  width: 100%;
+  height: 1.5625rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.commodity_display ul li section:nth-of-type(1) span b {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #eb5601;
+  line-height: 1.5625rem;
+  height: 1.5625rem;
+  padding: 0rem;
+  margin: 0;
+}
+.commodity_display ul li section:nth-of-type(1) span s {
+  display: inline-block;
+  font-size: 0.5rem;
+  color: #a19ea3;
+  margin-left: -0.125rem;
+}
+.commodity_display ul li section:nth-of-type(1) span span {
+  display: inline-block;
+  width: 2.625rem;
+  height: 0.75rem;
+  background: #f8d9d8;
+  vertical-align: middle;
+  border-radius: 0.1875rem;
+  font-size: 0.5625rem;
+  color: #eb5601;
+  padding: 0;
+}
+.commodity_display ul li section:nth-of-type(2) {
+  width: 9rem;
+  height: 1.75rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.commodity_display ul li section:nth-of-type(2) b {
+  display: inline-block;
+  line-height: 0.875rem;
+  padding: 0rem;
+  color: #959393;
+  font-size: 0.5625rem;
+}
+.commodity_display ul li section:nth-of-type(2) u {
+  display: inline-block;
+  text-decoration: none;
+  color: #959393;
+  float: right;
+  padding-right: 0.625rem;
 }
