@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.eot');
+  src: url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.eot?#iefix') format('embedded-opentype'), url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.woff2') format('woff2'), url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.woff') format('woff'), url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.ttf') format('truetype'), url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.svg#iconfont') format('svg');
+  
+  /* project id 1481503 */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 1rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.0125rem;
+  -moz-osx-font-smoothing: grayscale;
+}
+header {
+  width: 20rem;
+  height: 4.6875rem;
+  background-color: #ffcf00;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-top: 1.1875rem;
+}
+header .user_name {
+  width: 20rem;
+  height: 3.4375rem;
+  padding: 0.3125rem 0.8125rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+header .user_name .head_portrait {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  background: rebeccapurple;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 50%;
+}
+header .user_name .head_portrait img {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border-radius: 50%;
+}
+header .user_name .yonghu_name {
+  width: 10rem;
+  height: 2.8125rem;
+  float: left;
+  padding-left: 0.625rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+header .user_name .yonghu_name b {
+  line-height: 2.8125rem;
+  font-size: 0.875rem;
+}
+header .user_name .user_other {
+  width: 5rem;
+  height: 2.8125rem;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+header .user_name .user_other i {
+  line-height: 2.8125rem;
+  padding: 0 0.5rem;
+  font-size: 1.125rem;
+}
+.user_menu {
+  width: 20rem;
+  height: 5.75rem;
+  background-color: #ffcf00;
+}
+.user_menu ul {
+  overflow: hidden;
+}
+.user_menu ul li {
+  float: left;
+  width: 4.9375rem;
+  text-align: center;
+  height: 5.75rem;
+  padding-top: 1.5625rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.user_menu ul li u {
+  display: block;
+  height: 0.9375rem;
+  text-decoration: none;
+  font-size: 0.6875rem;
+  padding-top: 0.625rem;
+}
+.user_menu ul li i {
+  font-size: 1.1875rem;
+}
+.my_wallet {
+  width: 20rem;
+  height: 7.5rem;
+  background: white;
+  border-radius: 0.625rem 0.625rem 0 0;
+  margin-top: -0.625rem;
+  padding-top: 0.625rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.my_wallet .wallet {
+  width: 20rem;
+  height: 1.5rem;
+  padding-left: 0.8125rem;
+  padding-right: 0.8125rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.my_wallet .wallet b {
+  display: inline-block;
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+}
+.my_wallet .wallet u {
+  display: inline-block;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  float: right;
+  text-decoration: none;
+  color: #a2a0a2;
+}
+.my_wallet .wallet u i {
+  font-size: 0.75rem;
+  color: #a2a0a2;
+}
+.my_wallet .user_other_wallet {
+  width: 18.5625rem;
+  height: 5.3125rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 1px solid #ecebed;
+  margin: 0 auto;
+}
+.my_wallet .user_other_wallet dl dd {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+.my_wallet .user_other_wallet dl dd b {
+  display: inline-block;
+  padding-top: 0.4375rem;
+}
+.my_wallet .user_other_wallet dl dd b s {
+  font-size: 0.5rem;
+  text-decoration: none;
+}
+.my_wallet .user_other_wallet dl dd u {
+  display: block;
+  font-size: 0.625rem;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 0.625rem;
+}
+.my_wallet .user_other_wallet dl dd i {
+  display: block;
+  font-size: 0.5rem;
+  font-style: normal;
+  color: #a2a0a2;
+  padding-top: 0.375rem;
+}
+.user_banner_container {
+  width: 20rem;
+  height: 4.375rem;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.user_banner_container .user_banner {
+  width: 17.75rem;
+  height: 3.875rem;
+  margin: 0 auto;
+}
+.user_banner_container .user_banner .swiper-container {
+  --swiper-pagination-color: white;
+}
+.user_banner_container .user_banner .swiper-container img {
+  width: 17.75rem;
+  height: 3.875rem;
+  border-radius: 0.25rem;
+}
+.recommendation_tool {
+  width: 20rem;
+  height: 22.8125rem;
+  padding-top: 1.125rem;
+  padding-left: 0.8125rem;
+  padding-right: 0.8125rem;
+  padding-bottom: 2.8125rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.recommendation_tool p {
+  line-height: 1.875rem;
+  padding-left: 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: bold;
+}
+.recommendation_tool ul {
+  overflow: hidden;
+}
+.recommendation_tool ul li {
+  float: left;
+  height: 3.9375rem;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-top: 0.5rem;
+}
+.recommendation_tool ul li i {
+  font-size: 1.25rem;
+  color: #ff00b0;
+}
+.recommendation_tool ul li u {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-top: 0.8125rem;
+  display: block;
+  text-decoration: none;
+  font-size: 0.625rem;
+}
+.index_bottom_menu {
+  width: 20rem;
+  height: 2.8125rem;
+  background-color: white;
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  z-index: 999;
+  border-top: 1px solid #e8dfdf;
+}
+.index_bottom_menu dl {
+  width: 20rem;
+  height: 2.8125rem;
+  padding-top: 0.25rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow: hidden;
+}
+.index_bottom_menu dl dd {
+  width: 5rem;
+  height: 2.8125rem;
+  background-color: white;
+  float: left;
+  text-align: center;
+}
+.index_bottom_menu dl dd:nth-of-type(1) span {
+  display: inline-block;
+  height: 2.3125rem;
+  width: 2.3125rem;
+  background-color: #ffd400;
+  border-radius: 50%;
+  line-height: 37px;
+}
+.index_bottom_menu dl dd:nth-of-type(1) span i {
+  font-size: 1.75rem;
+}
+.index_bottom_menu dl dd:nth-of-type(1) i {
+  font-size: 1.5rem;
+}
+.index_bottom_menu dl dd:nth-of-type(1) section {
+  width: 100%;
+  height: 10px;
+  font-size: 0.5625rem;
+}
+.index_bottom_menu dl dd:nth-of-type(2) i {
+  font-size: 1.5rem;
+}
+.index_bottom_menu dl dd:nth-of-type(2) section {
+  width: 100%;
+  height: 10px;
+  font-size: 0.5625rem;
+}
+.index_bottom_menu dl dd:nth-of-type(3) i {
+  font-size: 1.5rem;
+}
+.index_bottom_menu dl dd:nth-of-type(3) section {
+  width: 100%;
+  height: 10px;
+  font-size: 0.5625rem;
+}
+.index_bottom_menu dl dd:nth-of-type(4) i {
+  font-size: 1.5rem;
+}
+.index_bottom_menu dl dd:nth-of-type(4) section {
+  width: 100%;
+  height: 10px;
+  font-size: 0.5625rem;
+}

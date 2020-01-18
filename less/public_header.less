@@ -1,12 +1,12 @@
 // 阿里字体图标库引入
 @font-face {
     font-family: 'iconfont';  /* project id 1481503 */
-    src: url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.eot');
-    src: url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.eot?#iefix') format('embedded-opentype'),
-    url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.woff2') format('woff2'),
-    url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.woff') format('woff'),
-    url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.ttf') format('truetype'),
-    url('https://at.alicdn.com/t/font_1481503_gf9fc0oahx9.svg#iconfont') format('svg');
+    src: url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.eot');
+    src: url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1481503_7ltzw2iwfy.svg#iconfont') format('svg');
   }
 .iconfont{
         font-family:"iconfont" !important;
@@ -17,9 +17,13 @@
 }
 .public_header{
     width: 20rem;
-    height: 2.8125rem;
+    height: 3.125rem;
     background: #ffd400;
     overflow: hidden;
+    position: fixed;
+    top:0rem;
+    left: 0rem;
+    z-index: 999;
     .Headportrait_container{
         width: 3.125rem;
         height: 2.8125rem;
@@ -112,10 +116,11 @@
     height: 1.625rem;
     background: #ffcf00;
     overflow: hidden;
+    margin-top: 2.8125rem;
     dl{
         height: 1.625rem;
         dt{
-            padding: 0.5rem;
+            padding: 0.5rem 0;
             padding-right: 0rem;
             padding-left: 1.125rem;
             float: left;
@@ -126,7 +131,7 @@
             -webkit-box-sizing: border-box;
         }
         dd{
-            padding: 0.5rem;
+            padding: 0.5rem 0;
             float: left;
             font-size: 0.625rem;
             height: 1.625rem;
@@ -134,11 +139,20 @@
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
             line-height: 0.8125rem;
-
+            a{
+                border-right: 1px solid black;
+                padding: 0 0.5rem;
+            }
             i{
                 vertical-align: top;
             }
         }
+        dd:nth-last-of-type(1){
+            a{
+                border-right: 1px solid #ffcf00;
+            }
+        }
+        
     }
 }
 .index_menu_container{
@@ -294,18 +308,27 @@
     }
 }
 .commodity_display{
-    width: 18.375rem;
+    width: 100%;
     height: auto;
     overflow: hidden;
     margin: 0 auto;
+    background-image: linear-gradient(to bottom,white 0%,#f7f7f7 10%);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0rem 0.8125rem;
+    padding-bottom: 2.8125rem;
     ul{
         padding-top: 0.5rem;
-        width: 100%;
+        width: 9rem;
         overflow: hidden;
+        float: left;
         li{
-            float: left;
             width: 9rem;
             text-align: left;
+            background-color: white;
+            border-radius: 4px;
+            margin-top: 0.5625rem;
+            margin-left: 0.5rem;
             img{
                 width: 9rem;
                 height: 7.0625rem;
@@ -326,7 +349,6 @@
                 p{
                     width: 100%;
                     height: 1.3125rem;
-                    background-color: white;
                     overflow:hidden;
                     text-overflow:ellipsis;
                     white-space:nowrap;
@@ -397,5 +419,110 @@
                 }
             }
         }
+    }
+}
+.index_bottom_menu{
+    width: 100%;
+    height: 2.8125rem;
+    background-color:white;
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    z-index: 999;
+    dl{
+        width: 100%;
+        height: 2.8125rem;
+        padding-top: 0.25rem;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        overflow: hidden;
+        dd{
+            width: 5rem;
+            height: 100%;
+            background-color: white;
+            float: left;
+            text-align: center;
+            // line-height: 2.8125rem;
+           
+        }
+        dd:nth-of-type(1){
+            span{
+                display: inline-block;
+                height: 2.3125rem;
+                width: 2.3125rem;
+                background-color: #ffd400;
+                border-radius: 50%;
+                line-height: 37px;
+                i{
+                    font-size: 1.75rem;
+                }
+            }
+        }
+        dd:nth-of-type(1){
+            i{
+                font-size: 1.5rem;
+            }
+            section{
+                width: 100%;
+                height: 10px;
+                font-size: 0.5625rem;
+            }
+        }
+        dd:nth-of-type(2){
+            i{
+                font-size: 1.5rem;
+            }
+            section{
+                width: 100%;
+                height: 10px;
+                font-size: 0.5625rem;
+            }
+        }
+        dd:nth-of-type(3){
+            i{
+                font-size: 1.5rem;
+            }
+            section{
+                width: 100%;
+                height: 10px;
+                font-size: 0.5625rem;
+            }
+        }
+        dd:nth-of-type(4){
+            i{
+                font-size: 1.5rem;
+            }
+            section{
+                width: 100%;
+                height: 10px;
+                font-size: 0.5625rem;
+            }
+        }
+    }
+}
+.index_login{
+    position: fixed;
+    bottom: 2.8125rem;
+    width: 100%;
+    height: 2.8125rem;
+    background: rgba(0,0,0,.7);
+    button{
+        border: none;  
+        outline: none;
+        background: #ffd400;
+        border-radius: 0.3125rem;
+        padding:0.3125rem 0.5rem;
+        font-size: 0.625rem;
+        float: right;
+        margin-top: 0.625rem;
+        margin-right: 0.9375rem;
+    }
+    p{
+        display: inline-block;
+        line-height: 2.8125rem;
+        color: white;
+        font-size: 0.75rem;
+        padding-left: 0.9375rem;
+
     }
 }
