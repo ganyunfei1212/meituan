@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('https://at.alicdn.com/t/font_1481503_vs9gwp3l92m.eot');
+  src: url('https://at.alicdn.com/t/font_1481503_vs9gwp3l92m.eot?#iefix') format('embedded-opentype'), url('https://at.alicdn.com/t/font_1481503_vs9gwp3l92m.woff2') format('woff2'), url('https://at.alicdn.com/t/font_1481503_vs9gwp3l92m.woff') format('woff'), url('https://at.alicdn.com/t/font_1481503_vs9gwp3l92m.ttf') format('truetype'), url('https://at.alicdn.com/t/font_1481503_vs9gwp3l92m.svg#iconfont') format('svg');
+  
+  /* project id 1481503 */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 1rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.0125rem;
+  -moz-osx-font-smoothing: grayscale;
+}
+header {
+  width: 20rem;
+  height: 2.8125rem;
+}
+header .search_header_icon {
+  width: 2.5rem;
+  height: 2.8125rem;
+  float: left;
+  text-align: center;
+  line-height: 2.8125rem;
+}
+header .search_header_icon i {
+  font-size: 1.5625rem;
+}
+header .search_header_search {
+  width: 14rem;
+  height: 2.8125rem;
+  float: left;
+  line-height: 2.8125rem;
+  position: relative;
+}
+header .search_header_search input {
+  width: 14rem;
+  height: 1.6875rem;
+  border-radius: 0.625rem;
+  outline: none;
+  border: none;
+  background-color: #e7e7ef;
+  padding-left: 1.5rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+header .search_header_search i {
+  vertical-align: top;
+  position: absolute;
+  top: 1.0625rem;
+  line-height: normal;
+  left: 0.3125rem;
+}
+header .search_header_search_btn {
+  width: 3.5rem;
+  height: 2.8125rem;
+  float: left;
+}
+header .search_header_search_btn button {
+  width: 3.5rem;
+  height: 2.8125rem;
+  border: none;
+  background: white;
+  font-size: 0.8125rem;
+}
+.search_hot_word {
+  width: 20rem;
+  height: 1.875rem;
+  padding-top: 0.3125rem;
+  padding-left: 0.6875rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.5625rem;
+}
+.search_hot_word b {
+  font-size: 0.625rem;
+  font-weight: normal;
+  color: #bbbbbb;
+}
+.search_hot_word span {
+  font-size: 0.625rem;
+  float: right;
+  color: #bbbbbb;
+  margin-right: 0.75rem;
+}
+.search_hot_btn {
+  width: 20rem;
+}
+.search_hot_btn ul {
+  width: 16.9375rem;
+  overflow: hidden;
+  padding-left: 0.6875rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.search_hot_btn ul li {
+  float: left;
+  font-size: 0.625rem;
+  height: 1.625rem;
+  line-height: 1.625rem;
+  padding: 0 0.75rem;
+  background-color: #f7f7f7;
+  border-radius: 0.1875rem;
+  margin-right: 0.4375rem;
+  margin-top: 0.3125rem;
+  margin-bottom: 0.3125rem;
+}

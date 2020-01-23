@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ganyunfei1212/meituan#readme",
   "dependencies": {
+    "jquery": "^3.4.1",
     "swiper": "^5.3.0"
   }
 }

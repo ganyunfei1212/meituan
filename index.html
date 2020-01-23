@@ -14,6 +14,15 @@
     <link rel="stylesheet" href="./node_modules/swiper/css/swiper.min.css">
     <script src="./node_modules/swiper/js/swiper.min.js"></script>
     <script src="js/swiper_fuzhu.js" defer></script>
+     <!-- 腾讯定位 -->
+     <script type="text/javascript" src="https://3gimg.qq.com/lightmap/components/geolocation/geolocation.min.js"></script>
+    <script src="./js/adress.js" defer></script>
+    <!-- jquery -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- 天气 -->
+    <!-- <script src="./js/weather.js" defer></script> -->
+    <!-- index.js -->
+    <script src="./js/index.js" defer></script>
 </head>
 <body>
     <header class="public_header">
@@ -23,13 +32,13 @@
         </section>
         <!-- 地址 -->
         <section class="header_address">
-            <b>泸州</b>
-            <i class="iconfont">&#xe6eb;</i>
-            <u>多云10°C</u>
+            <b id="index_adress_city">定位中..</b>
+            <i class="iconfont" id="index_adress_icon">&#xe6eb;</i>
+            <u id="index_adress_weather"></u>
         </section>
         <!-- 搜索 -->
         <section class="public_search">
-            <input type="text" placeholder="请输入">
+            <input type="text" id="index_search" placeholder="请输入">
         </section>
         <!-- 其他 -->
         <section class="public_Other">
@@ -315,15 +324,25 @@
                 <section>首页</section>
             </dd>
             <dd>
-                <i class="iconfont">&#xe620;</i>
-                <section>发现</section>
+                <i class="iconfont">
+                    <a href="./html/find.html">&#xe620;</a>
+                </i>
+                <section>
+                    <a href="./html/find.html">发现</a>
+                </section>
             </dd>
             <dd>
-                <i class="iconfont">&#xe627;</i>
-                <section>订单</section>
+                <a href="./html/order.html">
+                    <i class="iconfont">&#xe627;</i>
+                </a>
+                <section>
+                    <a href="./html/order.html">订单</a>
+                </section>
             </dd>
             <dd>
-                <i class="iconfont">&#xe614;</i>
+                <a href="./html/user.html">
+                    <i class="iconfont">&#xe614;</i>
+                </a>
                 <section><a href="./html/user.html">我的</a></section>
             </dd>
         </dl>
